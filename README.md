@@ -2,14 +2,14 @@
 
 ![Dashboard Preview](docs/screenshot.png)
 
-## 📊 Project Overview
+##  Project Overview
 Power BI dashboard analyzing **years of personal finance status** , tracking income, expense and savings including:
 - Total income
 - Expense %
 - Savings %
 - Net worth generated
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Power BI Desktop 
@@ -21,7 +21,7 @@ Power BI dashboard analyzing **years of personal finance status** , tracking inc
    - `Transform Data` → `Data Source Settings`
 4. Refresh data (`Home` → `Refresh`)
 
-## 📈 Key Metrics Calculated
+##  Key Metrics Calculated
 
 | Metric | Formula | Description |
 |--------|---------|-------------|
@@ -31,12 +31,12 @@ Power BI dashboard analyzing **years of personal finance status** , tracking inc
 | **Net worth generated** | `CALCULATE(sum(FinData[Value]),FinData[Type]="Savings")  ` | Total savings |
 
 
-## 📅 Data Coverage
+##  Data Coverage
 - **Period**: 2018 - 2021
 - **Properties**: 3 main types of transaction: income, expense and savings. 2 sub-type of income, 4 sub-types of savings and 6 sub-types of expense
 - **Update Frequency**: monthly manual uploads
 
-## 🔍 Sample Analysis Views
+##  Sample Analysis Views
 1. **Key matrix cards**
    - Total income
    - Expense %
@@ -53,7 +53,7 @@ Power BI dashboard analyzing **years of personal finance status** , tracking inc
    - clearly showing the percentage of each component of expense and savings
    
 
-## 📝 Documentation
+##  Documentation
 - (docs/meta_data_Finance.txt) - Data Dictionary Field definitions and sources
 - (docs/metrics list.xlsx) - Metric Formulas Detailed KPI calculations
 - (docs/power_query_doc.txt) - Data Loading and Power Query Documentation
